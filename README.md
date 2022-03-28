@@ -1,4 +1,4 @@
-# Dasmato Art & Crafts
+# Dasmato's Art & Crafts
 ## The main focus is on basic HTML and CSS 
 ### Technologies
 + HTML
