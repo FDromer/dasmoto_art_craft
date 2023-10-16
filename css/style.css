@@ -1,10 +1,19 @@
+:root {
+  --first-color: khaki;
+  --second-color: white;
+  --third-color: blue;
+  --fourth-color: mediumspringgreen;
+  --fifth-color: lightcoral;
+  --sixth-color: skyblue;
+}
+
 h1 {
   background-image: url(../images/pattern.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   font-size: 100px;
-  color: khaki;
+  color: var(--first-color);
   text-align: center;
   }
 
@@ -17,22 +26,22 @@ p {
 
 .item h2 {
   font-size: 32px;
-  color: white;
+  color: var(--second-color);
 }
 
 .price {
   font-weight: bold;
-  color: blue;
+  color: var(--third-color);
 }
 
 #brush {
-  background-color: mediumspringgreen;
+  background-color: var(--fourth-color);
 }
 
 #fram {
-  background-color: lightcoral;
+  background-color: var(--fifth-color);
 }
 
 #pain {
-  background-color: skyblue;
+  background-color: var(--sixth-color);
 }
